@@ -6,13 +6,13 @@ const Home = () => {
     data: Bird,
     error,
     isPending,
-  } = useFetch("http://localhost:9000/Bird");
+  } = useFetch("https://json-for-bird.vercel.app/Bird");
 
   return (
     <div className="home">
       {error && <div>{error}</div>}
       {isPending && <div>Loading...</div>}
-      {Bird && <BirdList birds={Bird} title="All birds" />}
+      {Bird && <BirdList birds={Bird} title="မြန်မာနိုင်ငံတွင် တွေ့ရသော ငှက်များ" />}
     </div>
   );
 };
