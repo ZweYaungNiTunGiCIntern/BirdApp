@@ -6,8 +6,8 @@ export default function NavBar() {
       <nav className="navbar">
       <h1>Burmese Birds</h1>
       <div className="links">
-        <Link to="/home">Home</Link>
-        <Link to="/">Birds</Link>
+        <Link to="/">Home</Link>
+        <Link to="/home">Birds</Link>
         {/* <Link to="/">Home</Link>
         <Link to="/create">New Blog</Link> */}
       </div>

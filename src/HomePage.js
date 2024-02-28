@@ -34,7 +34,7 @@ const HomePage = () => {
                         <p className="text-dark mx-4" style={{ fontStyle: 'italic' }} >ငှက် (မျိုးပေါင်း Aves) သည် အမွှေးအတောင်ရှိ၍ အတောင်ပံ နှစ်ဖက်ရှိသော သွေးနွေးသတ္တဝါအမျိုးအစားတွင်ပါဝင်သည်။ သို့သော် အားလုံး ပျံသန်းနိုင်စွမ်း မရှိကြပေ။ ငှက်သည် ကျောရိုးရှိသတ္တဝါဖြစ်ပြီး ဥ,ဥတတ်သော သတ္တဝါအမျိုးအစားလည်း ဖြစ်သည်။</p>
                         <p className="text-dark mx-4" style={{ fontStyle: 'italic' }} >ကျွန်ုပ်တို့သည် ငှက်များကို နေ့စဉ်တွေ့မြင်နေကြရသော်လည်း ငှက်၏အကြောင်းကို နှိုက်နှိုက်ချွတ်ချွတ် မသိကြပေ။ ထိုကြောင့် ငှက်အကြောင်းကို ဖတ်ရှုလေ့လာခြင်းအားဖြင့် ငှက်လောက၏ စိတ်ဝင်စားဖွယ်ရာ၊ မှတ်သားဖွယ်ရာ အချက်များကိုပို၍ သိရှိလာနိုင်မည် ဖြစ်ပေသည်။</p>
                         <div className="d-flex justify-content-center"> {/* Center content horizontally */}
-                            <Link to="/" className="btn rounded-pill my-4 text-light " style={{ backgroundColor: '#709090', color: '#333' }}>Browse Birds</Link>
+                            <Link to="/home" className="btn rounded-pill my-4 text-light " style={{ backgroundColor: '#709090', color: '#333' }}>Browse Birds</Link>
                         </div>
                     </div>                
                 </div>
@@ -65,7 +65,7 @@ const HomePage = () => {
                             </div>
                         </div>
                         <div className='col-md-6 mb-4'>
-                            <Link to="/" style={{ textDecoration: 'none' }}>
+                            <Link to="/home" style={{ textDecoration: 'none' }}>
                             <div className='card card-body shadow-3 rounded-5' style={{ backgroundColor: 'rgba(218,221,225, 0.5)' }}  >
                                 <h1 className='text-dark'>Let's Explore Together . . 
                                     <img src={explore} style={{width: '50px', height: '50px'}}/>
